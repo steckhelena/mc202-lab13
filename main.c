@@ -62,8 +62,8 @@ int main(void) {
     printf("Iterations-%d\n", iterations);
 
     copias = malloc(sizeof(int*)*iterations);
-    while (pow(2,i) <= 10000000) {
-        base_tam = (size_t) pow(2, i);
+    while (pow(10,i) <= 10000000) {
+        base_tam = (size_t) pow(10, i);
 
         for (j = 1; j < 2; j++) {
             // Gera um array randomico do tamanho especificado.
